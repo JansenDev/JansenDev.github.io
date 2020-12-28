@@ -15,5 +15,6 @@
         "titleBar.inactiveBackground": "#567f6f99",
         "titleBar.inactiveForeground": "#e7e7e799"
     },
-    "peacock.color": "#567f6f"
+    "peacock.color": "#567f6f",
+    "commentTranslate.targetLanguage": "es"
 }

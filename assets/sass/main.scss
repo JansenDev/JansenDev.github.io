@@ -17,7 +17,7 @@
 		xxsmall:   (null,     360px    )
 	));
 
-// Mixins.
+// Mixins.  
 
 	@mixin inner {
 		> .inner {
@@ -38,7 +38,7 @@
 	@import 'base/reset';
 	@import 'base/page';
 	@import 'base/typography';
-
+     
 // Component.
 
 	@import 'components/row';

@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,7 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!-- My Style  -->
-	<link rel="stylesheet" href="dist/css/main.css" />
 	<noscript>
 		<link rel="stylesheet" href="assets/css/noscript.css" />
 	</noscript>
@@ -23,16 +22,18 @@
 		<header id="header" class="alt">
 			<a href="index.html" class="logo"><strong>Janssen</strong></a>
 			<nav>
-				<a href="#menu">Menu</a>
+				<a class="menu" href="#menu">Menu</a>
+					<a class="menu-options" href="index.html">Inicio</a>
+					<a class="menu-options" href="#one">Trabajos</a>
+					<a class="menu-options" href="about.html">Un poco de mi</a>
 			</nav>
 		</header>
 		<!-- Menu -->
 		<nav id="menu">
 			<ul class="links">
 				<li><a href="index.html">Inicio</a></li>
-				<li><a href="works.html">Trabajos</a></li>
+				<li><a href="#one">Mis Trabajos</a></li>
 				<li><a href="about.html">Un poco de mi</a></li>
-				<li><a href="contact.html">Contacto</a></li>
 			</ul>
 		</nav>
 
@@ -43,7 +44,7 @@
 					<h1>Hi, my name is Janssen .</h1>
 				</header>
 				<div class="mycontent">
-					<h3>Desarrolador Java</h3>
+					<h3>Desarrolador Full Stack Jr.</h3>
 					<ul class="actions">
 						<li><a href="#one" class="button next scrolly">Mis trabajos</a></li>
 					</ul>
@@ -109,56 +110,61 @@
 			<section id="one" class="tiles">
 				<article>
 					<span class="image">
-						<img src="images/pic01.jpg" alt="" />
+						<img src="images/pic20.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">SpotifyWeb</a></h3>
+						<h3><a href="https://github.com/JansenDev/Angular---SpotifyAppWeb-" target="_blank"
+								class="link">SpotifyWeb</a></h3>
 						<p>Angular 9 + API Spotify</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic02.jpg" alt="" />
+						<img src="images/pic21.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Lista de Heroes</a></h3>
-						<p>Angular 9</p>
+						<h3><a href="https://github.com/JansenDev/Spring-boot-RESTfull---Matricula-de-cursos"
+								target="_blank" class="link">Matriculas</a></h3>
+						<p>Spring boot JPA+MySQL Web-Service</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic03.jpg" alt="" />
+						<img src="images/pic22.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Tour Package-Info RESTful</a></h3>
-						<p>Spring Boot jpa+mysql | Web-Service</p>
+						<h3><a href="https://github.com/JansenDev/SpringBoot-Tour_RESTful" target="_blank"
+								class="link">Tour Package-Info RESTful</a></h3>
+						<p>Spring Boot JPA+MySQL | Web-Service</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic04.jpg" alt="" />
+						<img src="images/pic23.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Cursos de Estudiante RESTful</a></h3>
-						<p>Spring Boot jpa+mysql | Web-Service</p>
+						<h3><a href="https://github.com/JansenDev/Spring-boot-RESTfull---Matricula-de-cursos"
+								target="_blank" class="link">Cursos de Estudiante RESTful</a></h3>
+						<p>Spring Boot JPA+MySQL | Web-Service</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic05.jpg" alt="" />
+						<img src="images/pic24.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Consulta RUC</a></h3>
+						<h3><a href="https://github.com/JansenDev/SpringBoot---APISunat" target="_blank"
+								class="link">Consulta RUC</a></h3>
 						<p>Spring Boot + API Sunat</p>
 					</header>
 				</article>
 				<article>
 					<span class="image">
-						<img src="images/pic06.jpg" alt="" />
+						<img src="images/pic26.png" alt="" />
 					</span>
 					<header class="major">
-						<h3><a href="landing.html" class="link">Chat Bot Facebook</a></h3>
-						<p>Express + API Facebook</p>
+						<h3><a href="https://github.com/JansenDev/Python" target="_blank" class="link">Python</a></h3>
+						<p>Proyectos/programas personales</p>
 					</header>
 				</article>
 			</section>
@@ -169,7 +175,7 @@
 		<!-- Contact -->
 		<section id="contact">
 			<div class="inner">
-				<section>
+				<!-- <section>
 					<form method="post" action="#">
 						<div class="fields">
 							<div class="field half">
@@ -190,28 +196,42 @@
 							<li><input type="reset" value="Limpiar" /></li>
 						</ul>
 					</form>
-				</section>
+				</section> -->
 				<section class="split">
 					<section>
 						<div class="contact-method">
 							<span class="icon solid alt fa-envelope"></span>
 							<h3>Email</h3>
-							<a href="#">seguragjj25@gmail.com</a>
 						</div>
 					</section>
 					<section>
 						<div class="contact-method">
 							<span class="icon solid alt fa-phone"></span>
 							<h3>Teléfono</h3>
-							<span>+51 900 740 609</span>
 						</div>
 					</section>
 					<section>
 						<div class="contact-method">
 							<span class="icon solid alt fa-home"></span>
 							<h3>Dirección</h3>
-							<span>Ate Vitarte<br />
-								Av.Nicolas Ayllón Pad. Tagore - Villa Vitarte<br />
+						</div>
+					</section>
+				</section>
+				<section class="split">
+					<section>
+						<div class="contact-method">
+							<a href="#">seguragjj25@gmail.com</a>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span>+51 900 740 609</span>
+						</div>
+					</section>
+					<section>
+						<div class="contact-method">
+							<span>
+								Asoc. Villa Vitarte Mz E Lt 19 <br /> Ate - vitarte
 							</span>
 						</div>
 					</section>
@@ -223,12 +243,15 @@
 		<footer id="footer">
 			<div class="inner">
 				<ul class="icons">
-					<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-					<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-					<li><a href="https://github.com/JhanssenDev" class="icon brands alt fa-github"><span
+					<!-- <li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li> -->
+					<li><a href="https://www.facebook.com/jiansel.seguragalindo/"
+							class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+					<li><a href="https://www.instagram.com/janssen250697/" class="icon brands alt fa-instagram"><span
+								class="label">Instagram</span></a></li>
+					<li><a href="https://github.com/JansenDev" class="icon brands alt fa-github"><span
 								class="label">GitHub</span></a></li>
-					<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+					<li><a href="https://www.linkedin.com/in/janssen250697/"
+							class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 				</ul>
 			</div>
 		</footer>
